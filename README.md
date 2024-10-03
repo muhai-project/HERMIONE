@@ -13,8 +13,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Hermione
+# Name
+Hermione
 
+# Description
 <!-- badges: start -->
 
 [![Lifecycle:
@@ -33,7 +35,7 @@ institutions, and organizations. (iii) Access powerful methods for
 retrieving, filtering, aggregating, and analyzing online debates about
 inequality from different perspectives.
 
-## Installation
+## Installation instructions
 
 You can install the development version of Hermione from GitHub (main
 branch) as follows:
@@ -94,7 +96,7 @@ which is equivalent to the output of the R code:
 paste0(Sys.getenv("HOME"),"/HERMIONE_KEY.txt")
 ```
 
-## Dockerized version of HERMIONE app
+## DockerFile
 
 Hermione is also available in a dockerized version. To build the docker
 container please use the following command from the main folder of the
@@ -104,7 +106,8 @@ project using your terminal/bash/console:
 
      docker run -p 127.0.0.1:8080:80 hermione
 
-## How to run the Hermione dashboard
+## Usage examples
+How to run the Hermione dashboard
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -116,9 +119,15 @@ Hermione::run_app()
 #Enjoy!
 ```
 
-# References
+# Ontologies
+https://w3id.org/okg/obio-ontology/
 
-# HERMIONE dev team
+# Owner:
+https://github.com/muhai-project
+# Owner type:
+Organization
+
+# Contributors
 
 - (creator & maintainer) Carlo R. M. A. Santagiustina
   <carlo.santagiustina@univiu.org>
